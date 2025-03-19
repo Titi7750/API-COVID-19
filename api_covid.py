@@ -18,7 +18,7 @@ def fetch_covid_data(date):
 
 def get_latest_date_from_api():
     """
-    Récupère la dernière date disponible dans l'API de la clé "date".
+    Get the latest date available in the API.
     """
     
     url = "https://covid-api.com/api/reports"
